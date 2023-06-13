@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+  <button class="btn-nuevo-espacio" (click)="redirigirANuevoEspacio()" [disabled]="isEspacioRoute()">Nuevo Espacio</button>
+  <button class="btn-nuevo-reservante" (click)="redirigirANuevoReservante()" [disabled]="isReservanteRoute()">Nuevo Reservante</button>
+</div>
+
+<app-footer></app-footer>
+
+
+<!--
+
+
+
+<div *ngIf="edad > 7" [style.background]="edad > 5 ? 'green' : 'red'">
+  Tu edad es: {{edad}}
+</div>
+<button class="btn btn-success"(click)="aumentarEdad()">Aumentar</button>
+<button class="btn btn-danger"(click)="disminuirEdad()">Disminuir</button>
+
+<ul>
+  <li *ngFor="let n of nombres; let indice = index">({{indice}}) {{n.first_name}}</li>
+</ul>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let n of nombres"><td>{{n.first_name}}</td></tr>
+  </tbody>
+</table>
+-->
