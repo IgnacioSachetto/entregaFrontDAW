@@ -8,9 +8,13 @@ import { PrimerComponenteComponent } from './primer-componente/primer-componente
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NuevoEspacioComponent } from './nuevo-espacio/nuevo-espacio.component';
-import { EspacioComponent } from './espacio/espacio.component';
 import { ReservanteComponent } from './reservante/reservante.component';
-import { NuevoReservanteComponent } from './nuevo-reservante/nuevo-reservante.component'
+import { NuevoReservanteComponent } from './nuevo-reservante/nuevo-reservante.component';
+import { ModificarEspacioComponent } from './modificar-espacio/modificar-espacio.component';
+import { ModificarReservanteComponent } from './modificar-reservante/modificar-reservante.component';
+import { NuevoRolComponent } from './nuevo-rol/nuevo-rol.component';
+import { ModificarRolComponent } from './modificar-rol/modificar-rol.component';
+import { NuevaReservaComponent } from './nueva-reserva/nueva-reserva.component'
 
 @NgModule({
   declarations: [
@@ -19,9 +23,13 @@ import { NuevoReservanteComponent } from './nuevo-reservante/nuevo-reservante.co
     HeaderComponent, // Asegúrate de incluir el componente HeaderComponent aquí
     FooterComponent,
     NuevoEspacioComponent,
-    EspacioComponent,
     ReservanteComponent,
     NuevoReservanteComponent,
+    ModificarEspacioComponent,
+    ModificarReservanteComponent,
+    NuevoRolComponent,
+    ModificarRolComponent,
+    NuevaReservaComponent,
   ],
   imports: [
     BrowserModule,

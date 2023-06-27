@@ -5,6 +5,7 @@
 }
 
 
+
 .container button {
   width: 100%;
   margin-top: 15px;
@@ -14,6 +15,13 @@
   border: none;
   cursor: pointer;
 }
+
+.container .btn-nueva-reserva {
+  background-color: #23c035;
+
+}
+
+
 
 .container button:hover {
   background-color: #23527c;

@@ -1,0 +1,44 @@
+<p>nueva-reserva works!</p>
+<h2>Nueva Reserva</h2>
+
+<form>
+  <div class="form-item">
+    <label for="FechaInicio">Fecha Reserva:</label>
+    <input type="datetime" id="FechaInicio" required>
+  </div>
+
+  <div class="form-item">
+    <label for="FechaFin">Fecha Fin:</label>
+    <input type="datetime" id="Fecha Fin" required>
+  </div>
+
+  <div class="form-item">
+    <label for="Espacio">Espacio:</label>
+    <input type="text" id="Espacio" required>
+  </div>
+
+  <div class="form-item">
+    <label for="motivo">Motivo Reserva:</label>
+    <input type="textarea" id="motivo" required>
+  </div>
+
+  <div class="form-item">
+    <label for="motivo">Motivo Rechazo:</label>
+    <input type="textarea" id="motivo" required>
+  </div>
+
+  <div class="form-item">
+    <label for="capRequerida">Capacidad Requerida:</label>
+    <input type="number" id="capRequerida	" required>
+  </div>
+
+  <div class="form-item">
+    <label for="estado">Estado:</label>
+    <select id="estado" required>
+      <option value="en-proceso" selected disabled>En Proceso</option>
+    </select>
+  </div>
+
+  <br>
+  <button type="submit">Guardar</button>
+</form>

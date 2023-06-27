@@ -32,21 +32,37 @@ export class AppComponent {
     this.edad--;
   }
 
-  isEspacioRoute(): boolean {
-    return this.router.url.includes('espacio');
+  redirigirANuevoEspacio() {
+    this.router.navigate(['nuevo-espacio']);
   }
 
-  redirigirANuevoEspacio() {
-    this.router.navigate(['espacio']);
+  redirigirAListadoDeEspacios() {
+    this.router.navigate(['modificar-espacio']);
   }
+
 
   redirigirANuevoReservante() {
     this.router.navigate(['reservante']);
   }
 
-  isReservanteRoute(): boolean {
-    return this.router.url.includes('espacio');
+  redirigirAListadoDeReservante(){
+    this.router.navigate(['modificar-reservante']);
+
   }
 
+  redirigirANuevoRol(){
+    this.router.navigate(['nuevo-rol']);
+
+  }
+
+  redirigirAListadoDeRoles(){
+    this.router.navigate(['modificar-rol']);
+
+  }
+
+  redirigirANuevaReserva(){
+    this.router.navigate(['nueva-reserva']);
+
+  }
 
 }

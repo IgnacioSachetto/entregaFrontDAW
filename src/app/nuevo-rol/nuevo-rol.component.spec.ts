@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EspacioComponent } from './espacio.component';
+import { NuevoRolComponent } from './nuevo-rol.component';
 
-describe('EspacioComponent', () => {
-  let component: EspacioComponent;
-  let fixture: ComponentFixture<EspacioComponent>;
+describe('NuevoRolComponent', () => {
+  let component: NuevoRolComponent;
+  let fixture: ComponentFixture<NuevoRolComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [EspacioComponent]
+      declarations: [NuevoRolComponent]
     });
-    fixture = TestBed.createComponent(EspacioComponent);
+    fixture = TestBed.createComponent(NuevoRolComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

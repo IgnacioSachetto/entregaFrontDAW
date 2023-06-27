@@ -2,8 +2,16 @@
 
 <div class="container">
   <router-outlet></router-outlet>
-  <button class="btn-nuevo-espacio" (click)="redirigirANuevoEspacio()" [disabled]="isEspacioRoute()">Nuevo Espacio</button>
-  <button class="btn-nuevo-reservante" (click)="redirigirANuevoReservante()" [disabled]="isReservanteRoute()">Nuevo Reservante</button>
+  <button class="btn-nuevo-espacio" (click)="redirigirANuevoEspacio()" >Nuevo Espacio</button>
+  <button class="btn-modificar-espacio" (click)="redirigirAListadoDeEspacios()" >Listado de Espacios</button>
+  <button class="btn-nuevo-reservante" (click)="redirigirANuevoReservante()">Nuevo Reservante</button>
+  <button class="btn-nuevo-reservante" (click)="redirigirAListadoDeReservante()">Listado Reservantes</button>
+  <button class="btn-nuevo-reservante" (click)="redirigirANuevoRol()">Nuevo Rol</button>
+  <button class="btn-nuevo-reservante" (click)="redirigirAListadoDeRoles()">Listado de Roles</button>
+  <button class="btn-nueva-reserva" (click)="redirigirANuevaReserva()">Nueva Reserva</button>
+
+
+
 </div>
 
 <app-footer></app-footer>
